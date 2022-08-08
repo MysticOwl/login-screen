@@ -1,0 +1,73 @@
+@import url('https://rsms.me/inter/inter.css');
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 10%;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 30em;
+  margin: 5px;
+  padding: 5px;
+  font-family: 'Inter';
+}
+form input[type=email],input[type=password]{
+  height: 47px;
+  border: solid #000 1px;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+
+form label, form p, .form_bottom{
+  text-align: start;
+  margin: 5px;
+  padding: 5px;
+}
+
+form .form_bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.google_login {
+  width: 100%;
+  height: 47px;
+  padding: 5px;
+  margin: 0.5em 0.5em 1em 0.5em;
+
+  background: #d93025;
+  border: none;
+  border-radius: 5px;
+  
+  font-style: normal;
+  color: white;
+}
+
+.google_login .icon{
+  margin: 0 0.6em 0 0
+}
+
+.button_login{
+
+  height: 47px;
+  margin-top: 1.7em;
+
+  font-style: normal;
+  color: white;
+
+  background: #47DD93;
+  border: none;
+  border-radius: 5px;
+}
+
+.cadastro_link{
+  text-align: center;
+  margin-top: 1.7em;
+}
